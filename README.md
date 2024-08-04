@@ -4,33 +4,34 @@ Shape Drawing Automation
 
 This project automates the process of generating and drawing shapes with specified colors using Python and Matplotlib, with the assistance of OpenAI's GPT-4 model. The main steps include generating a prompt, receiving Python code from the AI model, executing the code to create an image, and verifying the output.
 
-Installation
+## Installation
 Clone the repository
 
 pip install openai matplotlib numpy
 
 
-Configuration
+## Configuration
 Set your OpenAI API key in the script:
 
 openai.api_key = 'your-api-key-here'
 
 
-Run the script:
+## Run the script:
 
 python shape_drawing.py
 
 
 
 
-Steps
+## Steps
+
 Shape Selection:
 
 The AI model randomly selects a 2D or 3D shape from a predefined list.
 Color Assignment:
 
 The model chooses a random color or set of colors for the shape and specifies the areas to be colored.
-Code Generation:
+##  Code Generation:
 
 The AI model generates Python code to create the specified shapes and apply the colors using Matplotlib.
 File Creation and Dependency Installation:
